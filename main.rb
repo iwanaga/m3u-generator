@@ -8,7 +8,6 @@ relative_path_prefix = './'
 def should_ignore?(file_path)
   return true if File.directory? file_path
   return true if file_path.rpartition('/').last.start_with?('.')
-  return true if file_path.end_with?('.wav') # AudioInfo の返す曲の長さが明らかにおかしい
   return true if file_path.end_with?('.m3u')
   false
 end

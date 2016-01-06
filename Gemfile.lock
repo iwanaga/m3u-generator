@@ -7,13 +7,14 @@ GEM
     flacinfo-rb (1.0)
     moumar-wmainfo-rb (0.8)
     mp4info (1.7.3)
-    ruby-audioinfo (0.5.0)
+    ruby-audioinfo (0.5.2)
       apetag (>= 1.1.4)
       flacinfo-rb (>= 0.4)
       moumar-wmainfo-rb (>= 0.7)
       mp4info (>= 1.7.3)
       ruby-mp3info (>= 0.8)
       ruby-ogginfo (>= 0.7)
+      wavefile (>= 0.6.0)
     ruby-mp3info (0.8.7)
     ruby-ogginfo (0.7.2)
     wavefile (0.6.0)
@@ -22,5 +23,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ruby-audioinfo (= 0.5.0)
-  wavefile
+  ruby-audioinfo (= 0.5.2)
